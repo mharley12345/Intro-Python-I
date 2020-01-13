@@ -25,7 +25,7 @@ print(f2(7, 9, 1, 3, 4, 9, 0))  # Should print 33
 a = [7, 6, 5, 4]
 
 # What thing do you have to add to make this work?
-#print(f2(a[0],a[1],a[2],a[3]))    # Should print 22
+print(f2(a[0],a[1],a[2],a[3]))    # Should print 22
 print(f2(*a))
 
 # Write a function f3 that accepts either one or two arguments. If one argument,
