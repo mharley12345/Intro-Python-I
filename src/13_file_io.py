@@ -22,7 +22,7 @@ foo.close()
 # YOUR CODE HERE
 
 bar = open('bar.txt', 'w')
-bar.write("line 1,line 2, line 3")
+bar.write(" line 1\n line 2\n line 3\n ")
 bar.close()
 new_bar = open('bar.txt', 'r')
 print(new_bar.read())
